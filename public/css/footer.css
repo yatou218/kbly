@@ -1,0 +1,33 @@
+/**************底部*****************/
+.foot{
+    width: 100%;
+    background-color: #14b75c; 
+}
+.foot_box{
+    width: 1002px;
+    height:164px;
+    margin:auto;
+}
+.foot_box>img{
+    margin-top:44px;
+    border:0;
+    float:left;
+}
+.f-top{
+    height:50px;
+    float:right;
+    margin-top:44px;
+}
+.f-top a{
+    font-size: 14px;
+    color:#fff;
+    margin-left:18px;
+    text-decoration: none;
+}
+.foot_box span{
+    color:#fff;
+    font-size: 14px;
+    line-height: 28px;
+    float:left;
+    margin-left: 98px;
+}

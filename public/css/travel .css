@@ -1,0 +1,400 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+ul li{list-style:none;}
+/**********头部*******************/
+.banner{
+    width:1600px;
+    margin:auto;
+}
+.banner_top{
+    width:100%;
+    height:587px;
+    position:relative;
+}
+/**********背景图*******************/    
+.banner_top img{
+    width:100%;
+}
+/**********logo部分*******************/
+.logo{
+    width:1002px;
+    height:116px;
+    position:absolute;
+    top:0;
+    left:285px;
+}
+.logo img{
+    width:513px;
+    height:43px;
+    margin-top:31px;
+    margin-left: 11px;
+}
+.logo_right{
+    background: url(../img/header/top_tel.png) no-repeat;
+    background-position-y: 18px;
+    padding-left:6px;
+    float:right;
+    margin-top:34px;
+}
+.logo_right span{
+    font-size:15px;
+    font-family: "microsoft yahei";
+    color:#00bcc8;
+    margin-left:50px;
+}
+.logo_right p{
+    font-size:28px;
+    font-family:"impact";
+    color:#00bcc8;
+    font-weight: bold;
+    padding-left:30px;
+}
+/**********导航栏*******************/
+.nav_box{
+    width:1002px;
+    height:92px;
+    background:#14b75c;
+    position:absolute;
+    top:120px;
+    left:300px;
+}
+.nav_home{
+    width:74px;
+    height:92px;
+    background:url(../img/header/home.jpg) center center no-repeat #fff;
+    display:block;
+    float:left;
+    margin-left:-8px;
+}
+.nav_box>ul{ 
+    width:1002px;
+    display: block;
+    /* background-color:#14b75c; */
+}
+.nav_box>ul>li{
+    width:102px;
+    height:92px;
+    list-style-type:none;
+    font-size:14px;
+    text-align: center;
+    padding:0;
+    float: left;
+    line-height:92px;
+    border-right:2px solid #10964b;
+}
+.nav_box>ul>li>a{
+    width:102px;
+    height:92px;
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+    position: relative;
+    display: block;
+}
+.nav_box>ul>li>a:hover{
+    width:102px;
+    height:92px;
+    background: #11934b;
+    color:#6de9a4;
+}
+/*  */
+.normal{
+    color:#fff; 
+    /* height:104px; */
+    height:0px;
+    overflow:hidden;
+    transition:height .3s linear; 
+}
+.normal>li{
+    /* height:52px; */
+    line-height: 52px;
+    border-top:1px solid #10964b ;
+    background-color: #14b75c;
+}
+.nav_box>ul>li>a:hover+.normal{
+    height:104px;
+}
+.nav_box>ul>li:nth-child(2)>a:hover+ul{
+    height:255px;
+}
+.nav_box>ul>li:nth-child(4)>a:hover+ul{
+    height:156px;
+}
+.nav_box>ul>li:nth-child(6)>a:hover+ul{
+    height:156px;
+}
+.normal>li>a{
+    color:#fff;
+}
+.nav_box img{
+    width:298px;
+    border:0;
+    position:absolute;
+    top:-23px;
+}
+/**********站内公告及天气******************/
+.neck{
+    width:100%;
+    background:#e7e7e7;
+}
+.neck_box{
+    width:1002px;
+    height:103px;
+    margin:auto;
+}
+.neck_left{
+    width:280px;
+    height:103px;
+    background:#14b75c;
+    float:left;
+}
+.neck_right{
+    width:543px;
+    height:87px;
+    float:left;
+    margin-left:32px;
+}
+.n_r_top{
+    width:543px;
+    height:40px;
+    margin-top:16px;
+}
+.n_r_top h2{
+    float:left;
+    color:#535252;
+}
+.n_r_top span{
+    color:#535252;
+    font-size: 22px;
+}
+/**************中部框架*****************/
+.subpage{
+    width:1002px;
+    margin:auto;
+}
+.subpage::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.sbu_box{
+    width:100%;
+    position: relative;
+}
+/*  左边部分    */
+.left{
+    width:244px;
+    padding-bottom: 26px;
+    float:left;
+}
+/*左边部分——文化娱乐*/
+.left>span{
+    display: block;
+    background-color: #00bcc8;
+    color:#fff;
+    font-size:18px;
+    margin-top: 31px;
+    text-align: center;
+    line-height: 52px;
+}
+.span_ul{
+    width:242px;
+    height: 145px;
+    font-size:14px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+}
+.span_ul li{
+    width:88px;
+    height:32px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 33px;
+    line-height: 32px;
+}
+.span_ul li a{
+    color: #01a7b2;
+}
+/*左边部分---图片*/
+.left img{
+    width:100%;
+    height:215px;
+    padding-top:31px;
+}
+/* 左边部分----自驾游标题  */
+.img_down_title{
+    height:52px;
+    background:#00bcc8;
+    margin-top:31px;
+}
+.img_down_title span,.img_down_title a{
+    color:#fff;
+    line-height: 52px;
+}
+.img_down_title span{
+    font-size:18px;
+    padding-left:16px;
+}
+.img_down_title a{
+    font-size:14px;
+    margin-left:110px;
+}
+/*标题下内容*/
+.left_ul{
+    border:1px solid #d1d1d1;
+    padding-bottom:16px;
+}
+.left_ul li{
+    width:214px;
+    margin:auto;
+    border-bottom:1px dotted #979797;
+}
+ /*第一列*/
+    /******优惠******/
+.img_down_one{
+    background:#ff3900;
+    color:#fff;
+    font-size:12px;
+    border-radius:2px;
+}
+    /*******地图导航******/
+.img_down_two{
+    font-size:16px;
+    color:#01a7b2;
+    margin-left:6px;
+    font-weight:700;
+    line-height:37px;
+}
+ /* 第二列 */
+.left_li{
+    width:214px;
+    height:36px;
+    font-size:12px;
+    line-height:18px;
+    margin:auto;
+}
+.left_li a{color:#666;}
+/*  右边部分     */
+.right{
+    width:719px;
+    padding-left: 39px;
+    float:left;
+}
+/*右边部分---标题*/
+.right-title{
+    width:100%;
+    height:70px;
+    border-bottom:1px solid #dbdbdb;
+}
+.right-title>span{
+    font-size:22px;
+    color:#00bcc8;
+    float:left;
+    line-height: 70px;
+    padding:3px;
+}
+.right-title>p{
+    font-size:14px;
+    color:#767676;
+    float:right;
+    line-height: 70px;
+}
+.right-title>p>a{color:#767676;}
+/* 右边部分----图片*/
+.travelimg{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.travelimg>div{
+    width:236px;
+    height:238px;
+    margin-top:15px;
+    /* background:#000; */
+}
+.travelimg>div img{
+    width:225px;
+    height:170px;
+}
+.travelimg>div p a{
+    color:#01a7b2;
+    font-size:14px;
+}
+.travelimg>div p{
+    margin-top:14px;
+}
+/*页中底部----分栏*/
+.subfield{
+    height: 28px;
+    display: flex;
+    justify-content: flex-end;
+    font-size:14px;
+}
+.subfield a,.subfield p input,.subfield button{
+    color: #fff;
+    background-color: #00bcc8;
+    border:1px solid #00bcc8;
+    border-radius: 0.25rem;
+    text-align: center;
+    padding:1px 10px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.subfield p{
+    color:#00bcc8;
+    font-size:15px;
+}
+.page_sum{
+    margin:6px 15px 0 15px;
+}
+.go_page{
+    margin-top:-8px;
+}
+
+.subfield p input{
+    margin:0;
+    padding:0;
+    width:26px;
+    height:26px;
+    margin:10px 10px 0 10px;
+}
+.subfield button{
+    padding:0;
+    width:55px;
+    height:28px;
+    margin:2px 0px 0 10px;
+}
+/**************底部*****************/
+.foot{
+    width: 100%;
+    background-color: #14b75c; 
+}
+.foot_box{
+    width: 1002px;
+    height:164px;
+    margin:auto;
+}
+.foot_box>img{
+    margin-top:44px;
+    border:0;
+    float:left;
+}
+.f-top{
+    height:50px;
+    float:right;
+    margin-top:44px;
+}
+.f-top a{
+    font-size: 14px;
+    color:#fff;
+    margin-left:18px;
+    text-decoration: none;
+}
+.foot_box span{
+    color:#fff;
+    font-size: 14px;
+    line-height: 28px;
+    float:left;
+    margin-left: 98px;
+}
